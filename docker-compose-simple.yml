@@ -8,7 +8,7 @@ services:
   words:
     image: dockersamples/k8s-wordsmith-api
     deploy:
-      replicas: 5
+      replicas: 1
 
   web:
     image: dockersamples/k8s-wordsmith-web
